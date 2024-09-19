@@ -1,0 +1,115 @@
+/* General body settings */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Header style */
+.main-header {
+    text-align: center;
+    padding: 50px;
+}
+
+.main-header h1 {
+    color: rgb(205, 190, 190);
+    font-size: 2rem; /* Slightly smaller */
+    text-shadow: 2px 2px 5px white; /* White shadow added */
+}
+
+/* Subheader text (just "HTML + CSS" in purple below the header) */
+.subheader-text h2 {
+    color: rgb(226, 102, 226);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: -1.75cm; /* Adjusting to be closer to the header */
+}
+
+/* Navigation bar (below the "HTML + CSS" text) */
+.nav-bar {
+    background-color: rgba(0, 0, 255, 0.8);
+    margin-left: 0.3cm; 
+    margin-right: 0.3cm; 
+    padding: 10px 0;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox to align items horizontally */
+}
+
+.nav-bar ul li {
+    margin: 0 0.75cm; /* 1.5 cm spacing between items */
+}
+
+.nav-bar ul li a {
+    color: rgb(129, 124, 124);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content section with boxes */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 1cm;
+    gap: 1cm; /* Space between the boxes */
+}
+
+.box {
+    width: 20%; /* Same width for all boxes */
+    height: 150px; /* Same height for all boxes */
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* White shadow */
+    color: rgba(255, 255, 255, 0.8); /* Slightly transparent text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Specific colors for boxes */
+.left-box {
+    background-color: rgba(128, 128, 128, 0.6); /* Grey and transparent */
+}
+
+.right-box {
+    background-color: rgba(128, 0, 128, 0.6); /* Purple and transparent */
+}
+
+.top-middle-box {
+    background-color: rgba(0, 0, 255, 0.6); /* Blue and transparent */
+}
+
+.bottom-middle-box {
+    background-color: rgba(0, 128, 0, 0.6); /* Green and transparent */
+}
+
+/* Middle container style */
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+/* Footer section */
+.footer-section {
+    text-align: center;
+    margin: 1cm auto 0;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    line-height: 1;
+}
+
+/* Bold and italicized developer name */
+.developer-name {
+    font-weight: bold;
+    font-style: italic;
+}

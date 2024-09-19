@@ -59,12 +59,12 @@ body {
     width: calc(100% - 6cm); /* 3 cm margin on each side (left and right) */
     margin: 2cm auto 0; /* 2 cm margin on top, auto centering, no margin on bottom */
     padding: 20px; /* Add some padding inside the box */
-    background-color: rgba(128, 0, 128, 0.5); /* Opaque purple color */
+    background-color: rgba(143, 23, 218, 0.5); /* Opaque purple color */
     border: 1px solid #ccc; /* Optional border for the box */
     box-sizing: border-box; /* Ensure padding and border are included in the width */
     height: 180px; /* Set the height to make the box 3 times longer vertically (adjust as needed) */
     box-shadow: -5px -5px 10px white; /* White shadow above and to the left */
-    border-bottom: 5px solid rgb(45, 67, 177); /* Tiny blue stripe at the bottom */
+    border-bottom: 5px solid rgb(47, 17, 38); /* Tiny blue stripe at the bottom */
     display: flex; /* Use flexbox for vertical centering */
     align-items: center; /* Vertically center the text */
     justify-content: flex-start; /* Align items to the start (left) */
@@ -79,8 +79,8 @@ body {
 .left-bottom-image {
     position: absolute;
     bottom: 0.5cm; /* Move image up by 0.5 cm */
-    left: 0.5cm; /* Move image right by 0.5 cm */
-    width: 50px; /* Adjust width as needed */
+    left: 0.68cm; /* Move image right by 0.5 cm */
+    width: 36px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
